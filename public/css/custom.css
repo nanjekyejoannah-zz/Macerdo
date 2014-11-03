@@ -1,0 +1,107 @@
+body{
+	padding-top: 70px;
+}
+}
+.navbar-main{
+	background-color:#157F8F;
+	color:#FFF;
+	border:1px solid #157F8F;
+}
+.navbar-main  .navbar-brand{
+	color:#FFF;
+}
+.navbar-main  .navbar-nav .drop li a{
+	color:#FFF;
+}
+/* this style manpultes how the navbar will look lke */
+.navbar-custom .nav{
+	background-color:#fff;
+}
+.navbar-custom .nav[class*="col-"] {
+  padding-top: 20px;
+}
+.navbar-custom .nav li{
+	text-align:center;
+	font-weight:bold;
+	max-height:65px;
+	background-color:#fff;
+}
+.navbar-custom .nav li:hover{
+	background-color:#eee;
+}
+.navbar-custom .nav a:hover{
+	background-color:#eee;
+	text-transform:none;
+}
+.navbar-custom .nav{
+	padding:0;
+	background-color:#eee;
+}
+.navbar-custom .nav{
+	padding:0;
+	background-color:#eee;
+}
+
+.navbar{
+	margin:0;
+}
+
+.controls {
+	/* border-top:1px solid #eee; */
+	padding-top:2px;
+	margin-top:2px;
+	
+}
+
+.controls ul{
+	list-style-type=:none;
+	padding:0;
+}
+.tile{
+		padding: 5px;
+}
+.tile .container{
+	border:1px solid #eee;
+	min-height: 300px	;
+}
+.tile .btn{
+ 	background-color:#F0693B;
+	color:#fff;
+	width:100%;
+}
+
+#upload-form .col-md-6{
+	border:none;
+	padding:0px;
+}
+
+#upload-form .btn{
+ 	background-color:#F0693B;
+	color:#fff; 
+	border:1px solid #ccc;
+	width:100%;
+}
+
+.apps .col-md-4{
+	padding:2px;
+}
+.apps .col-md-4 .container{
+	border:1px solid #eee;
+	padding:20px;
+}
+.cta a{
+	border:1px solid #157F8F;
+	background-color:#F0693B;
+	color: #fff:;
+}
+.cta a:hover{
+	border:1px solid #fff;
+}
+.header-wrap{
+	padding:20px;
+	background-color:#157F8F;
+}
+.content-panel{
+	border-left: 1px solid #ccc;
+	min-height: 200%;		
+}

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.lpng">
+
+    <title>Marcedo | Ugandan app store</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/navbar-fixed-top.css" rel="stylesheet">
+    <link href="css/grid.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+	
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Marcedo	</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="">Default</a></li>
+            <li><a href="">Static top</a></li>
+            <li class="active"><a href="">Fixed top</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<!-- top-nav -->
+	<div class="navbar navbar-custom">
+      <div class="row">
+          <ul class="nav">
+            
+            <li class="col-xs-4 col-sm-4 col-lg-4" ><a href="/">Verify Apps</a></li>
+            <li class="col-xs-4 col-sm-4 col-lg-4"><a href="/market">Apps in the market</a></li>
+          </ul>
+      </div>
+    </div>
+	<!-- top-nav -->
+	<div class="row">
+	
+	<!-- sidebar -->
+      <div class="col-md-4">
+		<div class="container">
+
+		<!-- peronal information of he developer -->
+		  <div class="profile">
+			<div class="profipict"><img src="images/user.png" alt=""></div>
+			<h3 style="font-size:16px;">Benjamin Lucas</h3>
+			<p>here goes a brief intro by th develpe abouthimself. this is for the beneft of marketing oneself to the visitors of your site</p>
+		  </div>
+		  
+		  <hr>
+		 <!-- admin list panel -->
+		  <div class="">
+			<ul class="" type="none">
+				<li><a href=""></a></li>
+				<li><a href="">Terms and policy</a></li>
+				<li><a href="">Report a problem</a></li>
+				<li><a href="">Logout</a></li>
+			</ul>
+		  </div>
+		  
+		</div>
+	  </div>
+	<!-- sidebar -->
+	
+	<!-- sidebar -->
+	<div class="col-md-8">
+		<p> Here </p>
+
+		<% @resource.each do |f| %>
+		<ul >
+			<li><%= f.name %></li>
+			<li><%= f.appDescription %></li>
+			<li><%= f.priceInDollars %></li>
+			<li><%= f.priceInUGX %></li>
+			<img src="<%= f.file %>">
+		</ul>
+			
+			
+
+		<% end%>
+
+	</div>
+	<!-- sidebar -->
+	
+	</div>
+    </div><!-- #wrap -->
+    
+    <div class="footercontainer">Footer</div>
+	
+	<!-- footer-->	
+<!-- 	<div id="footer"> 
+      <div class="container">
+        <p class="text-muted credit">dfsdfgsdfgsf</p>
+      </div>
+    </div> -->
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
